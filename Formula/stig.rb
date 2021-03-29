@@ -5,7 +5,7 @@ class Stig < Formula
   homepage "https://pypi.org/project/stig/"
   url "https://files.pythonhosted.org/packages/89/68/d65356cbc6aa7035e275f4d0a57034a25bc3ba35b6025f04c8f83e6e7eee/stig-0.12.1a0.tar.gz"
   sha256 "c984a220dbe705753cd5ac0d6948a91d051853bc753181a440e5cb489667d866"
-  license "MIT"
+  license "GPL-3.0-only"
 
   depends_on "python@3.9"
 
@@ -84,6 +84,6 @@ class Stig < Formula
   end
 
   test do
-    system "false"
+    assert_match "stig version #{version}", shell_output("#{bin}/stig -v")
   end
 end

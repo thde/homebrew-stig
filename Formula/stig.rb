@@ -7,6 +7,12 @@ class Stig < Formula
   sha256 "c984a220dbe705753cd5ac0d6948a91d051853bc753181a440e5cb489667d866"
   license "GPL-3.0-only"
 
+  bottle do
+    root_url "https://github.com/thde/homebrew-stig/releases/download/stig-0.12.1a0"
+    sha256 cellar: :any_skip_relocation, catalina:     "290f8bb4355ff003283d4c5aca4b886ef0f57a5f5a496fbed30ece875f6194ee"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "28d7ec815e0b02def4c1a6a51166c5a38442b633365758db2162b2d98a184ab7"
+  end
+
   depends_on "python@3.9"
 
   resource "aiohttp" do

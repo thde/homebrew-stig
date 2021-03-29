@@ -59,11 +59,6 @@ class Stig < Formula
     sha256 "80bd93aae5ed82435f20462ea0208fb198d8eec262e831ee06ce9ddb6b91c5a5"
   end
 
-  resource "stig" do
-    url "https://files.pythonhosted.org/packages/89/68/d65356cbc6aa7035e275f4d0a57034a25bc3ba35b6025f04c8f83e6e7eee/stig-0.12.1a0.tar.gz"
-    sha256 "c984a220dbe705753cd5ac0d6948a91d051853bc753181a440e5cb489667d866"
-  end
-
   resource "typing-extensions" do
     url "https://files.pythonhosted.org/packages/16/06/0f7367eafb692f73158e5c5cbca1aec798cdf78be5167f6415dd4205fa32/typing_extensions-3.7.4.3.tar.gz"
     sha256 "99d4073b617d30288f569d3f13d2bd7548c3a7e4c8de87db09a9d29bb3a4a60c"

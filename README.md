@@ -1,10 +1,12 @@
-# Thde Stig
+# Stig
+
+This is a Homebrew [Tap](https://docs.brew.sh/Taps) for [stig](https://github.com/rndusr/stig).
 
 ## How do I install these formulae?
 
-`brew install thde/stig/<formula>`
+`brew install thde/stig/stig`
 
-Or `brew tap thde/stig` and then `brew install <formula>`.
+Or `brew tap thde/stig` and then `brew install stig`.
 
 ## Documentation
 

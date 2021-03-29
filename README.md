@@ -1,4 +1,4 @@
-# Stig
+# Stig - Homebrew Tap
 
 This is a Homebrew [Tap](https://docs.brew.sh/Taps) for [stig](https://github.com/rndusr/stig).
 
